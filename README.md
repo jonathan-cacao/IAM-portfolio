@@ -17,13 +17,18 @@ This repository documents my configuration, screenshots, and decisions for each 
 ## Session Deliverables
 ### Saturday 1 - Architecture and Environment
 - [ ] Architecture diagram or description committed
-- [ ] Screenshot: midPoint Screens
-- [ ] Screenshot: SimplifyHR dashboard running
-- [ ] Screenshot: OpenLDAP screens and OU structure
+- [ ] Screenshot: midPoint Screens<br>
+![SimplifyHR dashboard](./images/Midpoint_users.png)<br><br><br>
+
+- [ ] Screenshot: SimplifyHR dashboard running<br>
+![SimplifyHR dashboard](./images/SimplifyHR%20dashboard.png)<br><br><br>
+
+- [ ] Screenshot: OpenLDAP screens and OU structure<br>
+![SimplifyHR dashboard](./images/OpenLDAP.png)<br><br><br>
 
 **What I built:** Created user accounts in SimplifyTech HRIS. Installed Midpoint IGA to automate user provisioning in OPENLDAP target system, as approved by SimplifyTech. Installed OpenLDAP and created OU objects.   
 
-**Resume bullet:** [Your bullet here]
+**Resume bullet:** Deployed a multi-component IAM environment including midPoint, an HR source simulator, and LDAP directory on a cloud server — verified end-to-end connectivity before first provisioning run<br><br>
 
 
 ### Saturday 2 - Joiner Workflow

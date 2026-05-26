@@ -2,7 +2,7 @@
 **Cohort:** SimplifyIAM Live Cohort 1 &ensp;&ensp;&ensp;&ensp;**Name:** Jonathan Cacao &ensp;&ensp;&ensp;&ensp;**LinkedIn:** [Your LinkedIn URL] &ensp;&ensp;&ensp;&ensp;**Completed:** May 2026
 
 ## What I Built
-Over five live Saturday sessions I built a complete IAM environment from scratch using midPoint, OpenLDAP, and Auth0. The environment runs on a dedicated cloud server and replicates how IAM provisioning works in a real enterprise engagement.
+Over five live Saturday sessions I built a complete IAM environment from scratch using MidPoint, OpenLDAP, and Auth0. The environment runs on a dedicated cloud server and replicates how IAM provisioning works in a real enterprise engagement.
 
 This repository documents my configuration, screenshots, and decisions for each session. It is intended as portfolio evidence for IAM implementation roles.
 
@@ -16,7 +16,28 @@ This repository documents my configuration, screenshots, and decisions for each 
 
 ## Session Deliverables
 ### Saturday 1 - Architecture and Environment
+Session date: May 9, 2026
 - [ ] Architecture diagram or description committed
+```mermaid
+flowchart LR
+    HRIS["SimplifyHR\nHR system of record"]
+    
+    subgraph MidPoint["SimplifyIAM"]
+        direction TB
+        Schema["Schema mapping"]
+        Roles["Role assignment"]
+        Policy["Policy enforcement"]
+    end
+    
+    OpenLDAP["OpenLDAP\nAccount directory"]
+
+    HRIS -->|"HR events\nHire · Transfer · Terminate\nCSV connector"| MidPoint
+    MidPoint -->|"Provision / Deprovision\nCreate · Modify · Disable\nLDAP connector"| OpenLDAP
+```
+- **SimplifyHR** fires HR events (hire, transfer, terminate) through an HR connector into Midpoint
+- **SimplifyIAM** is the brain which handles the schema mapping, role assignment, and policy enforcement
+- **OpenLDAP** receives the provisioning instructions via an LDAP connector and creates, modifies, or disables accounts accordingly
+  
 - [ ] Screenshot: midPoint Screens<br>
 ![SimplifyHR dashboard](./images/Midpoint_users.png)<br><br><br>
 
@@ -32,6 +53,7 @@ This repository documents my configuration, screenshots, and decisions for each 
 
 
 ### Saturday 2 - Joiner Workflow
+Session date: May 16, 2026
 - [ ] HR source connector configuration (screenshot or XML snippet)
 - [ ] Correlation rule definition (screenshot or XML snippet)
 - [ ] Inbound mapping table (screenshot)
@@ -43,6 +65,7 @@ This repository documents my configuration, screenshots, and decisions for each 
 
 
 ### Saturday 3 - Mover and Leaver Workflows
+Session date: May 23, 2026
 - [ ] Role definitions created (screenshot or XML snippet)
 - [ ] Mover workflow configuration (screenshot)
 - [ ] Screenshot: Robert Klein account disabled/deleted after leaver trigger

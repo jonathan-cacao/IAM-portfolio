@@ -34,7 +34,7 @@ flowchart LR
     HRIS -->|"HR events\nHire · Transfer · Terminate\nCSV connector"| MidPoint
     MidPoint -->|"Provision / Deprovision\nCreate · Modify · Disable\nLDAP connector"| OpenLDAP
 ```
-- **SimplifyHR** fires HR events (hire, transfer, terminate) through an HR connector into Midpoint
+- **SimplifyHR** fires HR events (hire, transfer, terminate) through an HR connector into SimplifyIAM (Midpoint)
 - **SimplifyIAM** is the brain which handles the schema mapping, role assignment, and policy enforcement
 - **OpenLDAP** receives the provisioning instructions via an LDAP connector and creates, modifies, or disables accounts accordingly
   

@@ -15,4 +15,33 @@ Establishes the HR system as an authoritative identity source within MidPoint. T
 | department | as is | organizationalUnit | 
 | costcenter | as is | costCenter | 
 | status | script | [activation/administrativeStatus](./scripts/status) |
+<br>
+
+**What I built:**
+- configured the CSV connector resource and test connectivity 
+- configured and saved seven inbound mappings
+- configured three synchronization mappings
+- defined correlation rule set - Item=name, Exact match 
+- Ran reconciliation to create focus objects in Midpoint
+- Display all employees as LINKED using Data Preview<br><br>
+
+**Screenshots:**
+
+[CSV Connector resource](./images/HR%20source%20connector%20configuration.png)
+
+[Seven Inbound mappings](./images/seven%20inbound%20mappings.png)
+
+[Three Synchronization mappings](./images/synchronization.png)
+
+[Correlation Rule Set](./images/correlation%20rule%20set.png)
+
+[Reconciliation to Create Focus Objects in Midpoint](./images/focus%20objects(users)%20in%20midpoint.png)
+
+[Data preview for LINKED employees](./images/Data%20preview.png)
+
+
+
+
+
+
 

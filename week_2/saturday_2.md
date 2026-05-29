@@ -40,8 +40,28 @@ Establishes the HR system as an authoritative identity source within MidPoint. T
 [Data preview for LINKED employees](./images/Data%20preview.png)
 
 
+### Phase 2: MidPoint to OpenLDAP Account Provisioning
+Configures OpenLDAP as a target resource within MidPoint. This phase establishes the LDAP connector resource, outbound attribute mappings, and synchronization reactions. Central to this phase is the Employee role and its inducement — the critical link that indirectly assigns an OpenLDAP account construction to every user holding that role. Without inducement, no provisioning occurs. Correlation maps existing LDAP accounts to their MidPoint owners via employee number. Reconciliation then enforces full alignment, ensuring every MidPoint focus object has a corresponding, correctly attributed OpenLDAP directory account.
 
+**Attribute Mapping:**
+| Midpoint Focus Object attribute | Expression | OpenLDAP |
+|----------------------------------| ----------- | -------- |
+| givenName | as is | givenName |
+| familyName | as is | sn |
+| familyName, givenName | script | cn |
+| name | script | dn |
+|emailAddress | as is | mail |
+|costCenter | as is | departmentNumber |
+| employeeNumber | as is | employeeNumber | 
+<br>
 
-
+**What I built:**
+- created an OpenLDAP resource using Ldap connector
+- configured Object type: inetOrgPerson with nsAccount auxiliary class
+- Seven outbound mappings: givenName, sn, cn (script), DN (script), mail, departmentNumber, employeeNumber
+- DN script that routes active users to ou=people and terminated users to ou=inactive
+- defined Synchronization reactions and correlation rule on OpenLDAP resource
+- updated Employee role with OpenLDAP construction inducement
+- provisioned accounts to ou=people automatically via reconciliation
 
 

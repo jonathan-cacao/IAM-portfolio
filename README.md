@@ -1,5 +1,8 @@
 # SimplifyIAM IAM Implementation Portfolio
-**Cohort:** SimplifyIAM Live Cohort 1 &ensp;&ensp;&ensp;&ensp;**Name:** Jonathan Cacao &ensp;&ensp;&ensp;&ensp;**LinkedIn:** [LinkedIn URL] &ensp;&ensp;&ensp;&ensp;**Completed:** May 2026 - June 2026 (In-progress)
+**Cohort:** SimplifyIAM Live Cohort 1<br> 
+**Name:** Jonathan Cacao<br>
+**LinkedIn:** [LinkedIn](https://www.linkedin.com/in/jonathanmcacao)<br>
+**Completed:** May 2026 - June 2026 (In-progress)
 
 ## Overview ##
 SimplifyTech is 200-person technology company with a manual identity problem. 

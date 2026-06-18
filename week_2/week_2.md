@@ -49,7 +49,8 @@ OpenLDAP construction inducement
 ![OpenLDAP construction inducement](<role inducement.png>)<br><br>
 
 New OpenLDAP accounts provisioned
-![New OpenLDAP accounts provisioned](<7 Open LDAP accounts created.png>)
+![New OpenLDAP accounts provisioned](<7 Open LDAP accounts created.png>)<br><br>
+
 
 
 

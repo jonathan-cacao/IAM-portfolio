@@ -51,6 +51,10 @@ OpenLDAP construction inducement
 New OpenLDAP accounts provisioned<br>
 ![New OpenLDAP accounts provisioned](<7 Open LDAP accounts created.png>)<br><br>
 
+**Resume Bullet:**
+
+- Configured an end-to-end identity provisioning pipeline in midPoint 4.10: CSV HR connector with inbound attribute mappings and correlation rules, OpenLDAP connector with seven outbound mappings including DN routing script, and Employee role with construction inducement triggering automatic account provisioning via reconciliation.
+- Diagnosed and resolved a provisioning failure by identifying the missing construction inducement in the Employee role, demonstrating the ability to investigate identity lifecycle issues by tracing the provisioning chain from focus object through role assignment to target resource account creation
 
 
 

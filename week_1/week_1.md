@@ -38,5 +38,7 @@ SimplifyHR dashboard running<br>
 OpenLDAP screens and OU structure<br>
 ![SimplifyHR dashboard](./images/OpenLDAP.png)<br><br><br>
 
-**Resume bullet:**  Deployed an HRIS system, Midpoint IGA, LDAP directory on a Linux VM in the cloud; tested connectivity between the 3 systems and verified all services are running.
+**Resume bullet:**  
+
+Deployed a three-component enterprise IAM environment on a cloud server (midPoint IGA, HR source simulator, 389 Directory Server), verified inter-system connectivity, and mapped the architecture across IGA, Access Management, PAM, and CIAM domains as the foundation for full JML lifecycle implementation.
 

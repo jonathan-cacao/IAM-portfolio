@@ -1,4 +1,4 @@
-## Saturday 2 - Joiner Workflow
+## Week 2 - Joiner Workflow
 Session Date : May 16, 2026
 
 ### Phase 1: HRIS to Midpoint
@@ -12,16 +12,20 @@ Session Date : May 16, 2026
 
 **Screenshots:**
 
-[CSV Connector resource](./images/HR%20source%20connector%20configuration.png)
+CSV Connector resource
+![csv connector](<HR source connector configuration.png>)<br><br>
 
-[Inbound mappings](./images/seven%20inbound%20mappings.png)
+Inbound mappings
+![inbound mappings](<seven inbound mappings.png>)<br><br>
 
-[Synchronization settings](./images/synchronization.png)
+Synchronization settings
+![Synchronization](<synchronization.png>)<br><br>
 
-[Correlation Rule](./images/correlation%20rule%20set.png)
+Correlation Rule
+![Correlation Rule](<correlation rule set.png>)<br><br>
 
-[Reconciliation to Create Focus Objects in Midpoint](./images/focus%20objects(users)%20in%20midpoint.png)
-
+Reconciliation to Create Focus Objects in Midpoint
+![Reconciliation](<focus objects(users) in midpoint.png>)<br><br>
 
 ### Phase 2: MidPoint to OpenLDAP Account Provisioning
 
@@ -35,14 +39,17 @@ Session Date : May 16, 2026
 
 **Screenshots:**
 
-[LDAP connector resource](./images/LDAP%20connector%20configuration.png)
+LDAP connector resource
+![LDAP connector](<LDAP connector configuration.png>)<br><br>
 
-[Outbound mappings](./images/outbound%20mappings.png)
+Outbound mappings
+![Outbound mappings](<outbound mappings.png>)<br><br>
 
-[OpenLDAP construction inducement](./images/role%20inducement.png)
+OpenLDAP construction inducement
+![OpenLDAP construction inducement](<role inducement.png>)<br><br>
 
-[New OpenLDAP accounts provisioned](./images/7%20Open%20LDAP%20accounts%20created.png)
-
+New OpenLDAP accounts provisioned
+![New OpenLDAP accounts provisioned](<7 Open LDAP accounts created.png>)
 
 
 

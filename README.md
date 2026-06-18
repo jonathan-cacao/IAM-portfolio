@@ -29,11 +29,11 @@ This repository documents my configuration, screenshots, and decisions for each 
 | Auth0 | Access management - OIDC and SAML federation |
 
 ## Session Deliverables
-[Saturday 1 - Architecture and Environment](./week_1/saturday_1.md)<br> 
-[Saturday 2 - Joiner Workflow](./week_2/saturday_2.md)<br> 
-[Saturday 3 - Mover and Leaver Workflows](./week_3/saturday_3.md)<br> 
-[Saturday 4 - Access Management](./week_4/saturday_4.md)<br> 
-[Saturday 5 - Career Preparation](./week_5/saturday_5.md)<br> 
+[Week 1 - Architecture and Environment](./week_1/week_1.md)<br> 
+[Week 2 - Joiner Workflow](./week_2/week_2.md)<br> 
+[Week 3 - Mover and Leaver Workflows](./week_3/week_3.md)<br> 
+[Week 4 - Access Management](./week_4/week_4.md)<br> 
+[Week 5 - Career Preparation](./week_5/week_5.md)<br> 
 
 
 

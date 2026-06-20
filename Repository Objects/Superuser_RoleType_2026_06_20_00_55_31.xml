@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+	xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+	xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3">
+	<role xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="00000000-0000-0000-0000-000000000004" version="0">
+    <_metadata id="4">
+        <storage>
+            <createTimestamp>2025-12-14T07:04:34.480+01:00</createTimestamp>
+            <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+        </storage>
+        <process>
+            <requestTimestamp>2025-12-14T07:04:34.363+01:00</requestTimestamp>
+        </process>
+    </_metadata>
+    <name>Superuser</name>
+    <description>Role that gives user full authorization in MidPoint.</description>
+    <indestructible>true</indestructible>
+    <assignment id="1">
+        <_metadata id="5">
+            <storage>
+                <createTimestamp>2025-12-14T07:04:34.480+01:00</createTimestamp>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-12-14T07:04:34.363+01:00</requestTimestamp>
+            </process>
+            <provenance>
+                <acquisition id="6">
+                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</channel>
+                    <timestamp>2025-12-14T07:04:34.362+01:00</timestamp>
+                </acquisition>
+            </provenance>
+        </_metadata>
+        <identifier>archetype</identifier>
+        <targetRef oid="00000000-0000-0000-0000-000000000320" relation="org:default" type="c:ArchetypeType">
+            <!-- System role -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <assignment id="3">
+        <_metadata id="7">
+            <storage>
+                <createTimestamp>2025-12-14T07:04:34.480+01:00</createTimestamp>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-12-14T07:04:34.363+01:00</requestTimestamp>
+            </process>
+            <provenance>
+                <acquisition id="8">
+                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</channel>
+                    <timestamp>2025-12-14T07:04:34.362+01:00</timestamp>
+                </acquisition>
+            </provenance>
+        </_metadata>
+        <identifier>privileged-access</identifier>
+        <documentation>Superuser role provides privileged access - by definition.</documentation>
+        <targetRef oid="00000000-0000-0000-0000-000000000332" relation="org:default" type="c:PolicyType">
+            <!-- Privileged access -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <iteration>0</iteration>
+    <iterationToken/>
+    <archetypeRef oid="00000000-0000-0000-0000-000000000320" relation="org:default" type="c:ArchetypeType">
+        <!-- System role -->
+    </archetypeRef>
+    <roleMembershipRef oid="00000000-0000-0000-0000-000000000320" relation="org:default" type="c:ArchetypeType">
+        <!-- System role -->
+        <_metadata id="9">
+            <storage>
+                <createTimestamp>2025-12-14T07:04:34.465+01:00</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="00000000-0000-0000-0000-000000000004" relation="org:default" type="c:RoleType">
+                        <!-- Superuser -->
+                    </sourceRef>
+                    <segment id="10">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>1</assignmentId>
+                        <targetRef oid="00000000-0000-0000-0000-000000000320" relation="org:default" type="c:ArchetypeType">
+                            <!-- System role -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <activation>
+        <effectiveStatus>enabled</effectiveStatus>
+        <enableTimestamp>2025-12-14T07:04:34.391+01:00</enableTimestamp>
+    </activation>
+    <authorization id="2">
+        <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-3#all</action>
+    </authorization>
+</role>
+
+</objects>

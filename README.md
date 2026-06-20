@@ -16,7 +16,7 @@ After conversation with the CISO, the following requirements needs to addressed.
 | HR spreadsheet today. Need a system of record that the IGA platform can read automatically — no manual exports. | Active Directory (or equivalent) for all staff accounts. Every employee must have a directory account provisioned on **Day 1**. | Joiner, Mover, and Leaver events must be triggered automatically by **HR events** — not IT tickets. Zero manual provisioning. | SOC 2 requires evidence of: who had access, when it was granted, when it was removed, and who approved it. |
 
 ## What I Built
-Over five live Saturday sessions I built a complete IAM environment from scratch using a simple HRIS web-based app, MidPoint, OpenLDAP, and Auth0. The environment runs on a dedicated cloud server and replicates how IAM provisioning works in a real enterprise engagement.
+Over five live Saturday sessions I built a complete IAM environment from scratch using an HRIS Flask app, MidPoint, OpenLDAP, and Auth0. The environment runs on a dedicated cloud server and replicates how IAM provisioning works in a real enterprise engagement.
 
 This repository documents my configuration, screenshots, and decisions for each session. It is intended as portfolio evidence for IAM implementation roles.
 

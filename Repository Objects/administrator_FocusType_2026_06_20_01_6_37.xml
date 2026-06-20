@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+	xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+	xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3">
+	<user xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="00000000-0000-0000-0000-000000000002" version="259">
+    <_metadata id="3">
+        <storage>
+            <createTimestamp>2025-12-14T07:04:37.118+01:00</createTimestamp>
+            <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+            <modifyTimestamp>2026-06-19T11:56:04.063Z</modifyTimestamp>
+            <modifierRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </modifierRef>
+            <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</modifyChannel>
+            <modifyTaskRef oid="3e8b389e-7cc4-11ef-9295-4f3d13b4c390" relation="org:default" type="c:TaskType">
+                <!-- Recompute all users -->
+            </modifyTaskRef>
+        </storage>
+        <process>
+            <requestTimestamp>2025-12-14T07:04:37.065+01:00</requestTimestamp>
+        </process>
+        <provisioning>
+            <lastProvisioningTimestamp>2026-06-19T11:56:04.063Z</lastProvisioningTimestamp>
+        </provisioning>
+    </_metadata>
+    <name>administrator</name>
+    <operationExecution id="24">
+        <recordType>simple</recordType>
+        <timestamp>2026-06-19T10:31:35.379Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000746253</token>
+            </executionResult>
+            <objectName>administrator</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="3e8b389e-7cc4-11ef-9295-4f3d13b4c390" relation="org:default" type="c:TaskType">
+            <!-- Recompute all users -->
+        </taskRef>
+        <taskRunIdentifier>7fe3ff6b-d841-4aa0-abf1-da08e5e7f5cb</taskRunIdentifier>
+        <activityPath/>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</channel>
+    </operationExecution>
+    <operationExecution id="26">
+        <recordType>simple</recordType>
+        <timestamp>2026-06-19T11:56:04.231Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000764956</token>
+            </executionResult>
+            <objectName>administrator</objectName>
+        </operation>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000764957</token>
+            </executionResult>
+            <objectName>administrator</objectName>
+            <resourceOid>82916f4b-4647-4bfe-bc96-d7d398ed7701</resourceOid>
+            <resourceName>OpenLDAP</resourceName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="3e8b389e-7cc4-11ef-9295-4f3d13b4c390" relation="org:default" type="c:TaskType">
+            <!-- Recompute all users -->
+        </taskRef>
+        <taskRunIdentifier>15e8141c-5e3e-4088-bba4-6fffc9ba0d16</taskRunIdentifier>
+        <activityPath/>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</channel>
+    </operationExecution>
+    <operationExecution id="27">
+        <recordType>complex</recordType>
+        <timestamp>2026-06-19T11:56:04.242Z</timestamp>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="3e8b389e-7cc4-11ef-9295-4f3d13b4c390" relation="org:default" type="c:TaskType">
+            <!-- Recompute all users -->
+        </taskRef>
+        <activityPath/>
+    </operationExecution>
+    <triggeredPolicyRule>
+        <assignmentPath xsi:type="c:AssignmentPathType">
+            <segment>
+                <segmentOrder>1</segmentOrder>
+                <sourceRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+                <sourceDisplayName>midPoint Administrator</sourceDisplayName>
+                <assignmentId>1</assignmentId>
+                <targetRef oid="00000000-0000-0000-0000-000000000004" relation="org:default" type="c:RoleType"/>
+                <matchingOrder>true</matchingOrder>
+                <isAssignment>true</isAssignment>
+            </segment>
+            <segment>
+                <segmentOrder>2</segmentOrder>
+                <sourceRef oid="00000000-0000-0000-0000-000000000004" relation="org:default" type="c:RoleType"/>
+                <assignmentId>3</assignmentId>
+                <targetRef oid="00000000-0000-0000-0000-000000000332" relation="org:default" type="c:PolicyType"/>
+                <matchingOrder>false</matchingOrder>
+                <isAssignment>true</isAssignment>
+            </segment>
+            <segment>
+                <segmentOrder>3</segmentOrder>
+                <sourceRef oid="00000000-0000-0000-0000-000000000332" relation="org:default" type="c:PolicyType"/>
+                <assignmentId>4</assignmentId>
+                <matchingOrder>true</matchingOrder>
+                <isAssignment>false</isAssignment>
+            </segment>
+        </assignmentPath>
+        <directOwnerRef oid="00000000-0000-0000-0000-000000000004" relation="org:default" type="c:RoleType" xsi:type="c:ObjectReferenceType">
+            <targetName>Superuser</targetName>
+        </directOwnerRef>
+        <trigger>
+            <constraintKind>alwaysTrue</constraintKind>
+            <message xsi:type="c:SingleLocalizableMessageType">
+                <key>PolicyConstraint.mark-user-always-true</key>
+                <fallbackLocalizableMessage xsi:type="c:SingleLocalizableMessageType">
+                    <key>PolicyConstraint.mark-user-always-true</key>
+                    <fallbackLocalizableMessage xsi:type="c:SingleLocalizableMessageType">
+                        <key>DefaultPolicyConstraint.alwaysTrue.named</key>
+                        <argument>
+                            <localizable xsi:type="c:SingleLocalizableMessageType">
+                                <key>PolicyConstraints.after</key>
+                            </localizable>
+                        </argument>
+                        <argument>
+                            <value>mark-user-always-true</value>
+                        </argument>
+                    </fallbackLocalizableMessage>
+                </fallbackLocalizableMessage>
+            </message>
+            <shortMessage xsi:type="c:SingleLocalizableMessageType">
+                <key>PolicyConstraint.Short.mark-user-always-true</key>
+                <fallbackLocalizableMessage xsi:type="c:SingleLocalizableMessageType">
+                    <key>PolicyConstraint.mark-user-always-true</key>
+                    <fallbackLocalizableMessage xsi:type="c:SingleLocalizableMessageType">
+                        <key>DefaultPolicyConstraint.Short.alwaysTrue.named</key>
+                        <argument>
+                            <localizable xsi:type="c:SingleLocalizableMessageType">
+                                <key>PolicyConstraints.after</key>
+                            </localizable>
+                        </argument>
+                        <argument>
+                            <value>mark-user-always-true</value>
+                        </argument>
+                    </fallbackLocalizableMessage>
+                </fallbackLocalizableMessage>
+            </shortMessage>
+        </trigger>
+    </triggeredPolicyRule>
+    <indestructible>true</indestructible>
+    <effectiveMarkRef oid="c58394cd-c883-4e41-927c-f90a7c7a0c97" relation="org:default" type="c:MarkType">
+        <!-- Privileged access -->
+    </effectiveMarkRef>
+    <assignment id="1">
+        <_metadata id="4">
+            <storage>
+                <createTimestamp>2025-12-14T07:04:37.118+01:00</createTimestamp>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-12-14T07:04:37.065+01:00</requestTimestamp>
+            </process>
+            <provenance>
+                <acquisition id="5">
+                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</channel>
+                    <timestamp>2025-12-14T07:04:37.063+01:00</timestamp>
+                </acquisition>
+            </provenance>
+        </_metadata>
+        <identifier>superuserRole</identifier>
+        <targetRef oid="00000000-0000-0000-0000-000000000004" relation="org:default" type="c:RoleType">
+            <!-- Superuser -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <assignment id="2">
+        <_metadata id="6">
+            <storage>
+                <createTimestamp>2025-12-14T07:04:37.118+01:00</createTimestamp>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-12-14T07:04:37.065+01:00</requestTimestamp>
+            </process>
+            <provenance>
+                <acquisition id="7">
+                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</channel>
+                    <timestamp>2025-12-14T07:04:37.064+01:00</timestamp>
+                </acquisition>
+            </provenance>
+        </_metadata>
+        <identifier>archetype</identifier>
+        <targetRef oid="00000000-0000-0000-0000-000000000300" relation="org:default" type="c:ArchetypeType">
+            <!-- System user -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <assignment id="16">
+        <_metadata id="17">
+            <storage>
+                <createTimestamp>2026-06-19T10:31:35.232Z</createTimestamp>
+                <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</createChannel>
+                <createTaskRef oid="3e8b389e-7cc4-11ef-9295-4f3d13b4c390" relation="org:default" type="c:TaskType">
+                    <!-- Recompute all users -->
+                </createTaskRef>
+            </storage>
+            <process>
+                <requestTimestamp>2026-06-19T10:31:35.124Z</requestTimestamp>
+                <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </requestorRef>
+            </process>
+            <provenance>
+                <mappingSpecification>
+                    <definitionObjectRef oid="f923ce70-688f-11e3-ab09-001e8c717e5b" relation="org:default" type="c:ObjectTemplateType">
+                        <!-- User Template -->
+                    </definitionObjectRef>
+                    <mappingName>remove-role-on-termination</mappingName>
+                </mappingSpecification>
+            </provenance>
+        </_metadata>
+        <targetRef oid="cb0104c2-cc6c-4711-9849-038288a0102c" relation="org:default" type="c:RoleType">
+            <!-- Employee -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <iteration>0</iteration>
+    <iterationToken/>
+    <archetypeRef oid="00000000-0000-0000-0000-000000000300" relation="org:default" type="c:ArchetypeType">
+        <!-- System user -->
+    </archetypeRef>
+    <roleMembershipRef oid="00000000-0000-0000-0000-000000000004" relation="org:default" type="c:RoleType">
+        <!-- Superuser -->
+        <_metadata id="22">
+            <storage>
+                <createTimestamp>2025-12-14T07:04:37.102+01:00</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                        <!-- administrator -->
+                    </sourceRef>
+                    <segment id="23">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>1</assignmentId>
+                        <targetRef oid="00000000-0000-0000-0000-000000000004" relation="org:default" type="c:RoleType">
+                            <!-- Superuser -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="00000000-0000-0000-0000-000000000300" relation="org:default" type="c:ArchetypeType">
+        <!-- System user -->
+        <_metadata id="20">
+            <storage>
+                <createTimestamp>2025-12-14T07:04:37.102+01:00</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                        <!-- administrator -->
+                    </sourceRef>
+                    <segment id="21">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>2</assignmentId>
+                        <targetRef oid="00000000-0000-0000-0000-000000000300" relation="org:default" type="c:ArchetypeType">
+                            <!-- System user -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="cb0104c2-cc6c-4711-9849-038288a0102c" relation="org:default" type="c:RoleType">
+        <!-- Employee -->
+        <_metadata id="18">
+            <storage>
+                <createTimestamp>2026-06-19T10:31:35.202Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                        <!-- administrator -->
+                    </sourceRef>
+                    <segment id="19">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>16</assignmentId>
+                        <targetRef oid="cb0104c2-cc6c-4711-9849-038288a0102c" relation="org:default" type="c:RoleType">
+                            <!-- Employee -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <linkRef oid="4b9ca829-470a-46ff-96f1-c2f4d30c83db" relation="org:default" type="c:ShadowType">
+        <!-- uid=administrator,ou=people,dc=simplifyiam,dc=com -->
+    </linkRef>
+    <activation>
+        <administrativeStatus>enabled</administrativeStatus>
+        <effectiveStatus>enabled</effectiveStatus>
+        <enableTimestamp>2025-12-14T07:04:37.076+01:00</enableTimestamp>
+        <lockoutStatus>normal</lockoutStatus>
+    </activation>
+    <credentials>
+        <password>
+            <_metadata id="8">
+                <storage>
+                    <createTimestamp>2025-12-14T07:04:37.076+01:00</createTimestamp>
+                    <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+                    <modifyTimestamp>2025-12-14T07:06:24.747+01:00</modifyTimestamp>
+                    <modifierRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                        <!-- administrator -->
+                    </modifierRef>
+                    <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#selfService</modifyChannel>
+                </storage>
+            </_metadata>
+            <value>
+                <t:encryptedData>
+                    <t:encryptionMethod>
+                        <t:algorithm>http://www.w3.org/2001/04/xmlenc#aes256-cbc</t:algorithm>
+                    </t:encryptionMethod>
+                    <t:keyInfo>
+                        <t:keyName>SneUtzdDEV6/Dw0su5uR6sxS+sc=</t:keyName>
+                    </t:keyInfo>
+                    <t:cipherData>
+                        <t:cipherValue>cYpWRxv5fZV1jJ9XxWLVVEwcB+QNJpNx1kGimk3swQA=</t:cipherValue>
+                    </t:cipherData>
+                </t:encryptedData>
+            </value>
+        </password>
+    </credentials>
+    <behavior>
+        <authentication id="13">
+            <failedLogins>0</failedLogins>
+            <lastSuccessfulLogin>
+                <timestamp>2026-06-20T00:43:56.398Z</timestamp>
+                <from>x.x.x.x</from>
+            </lastSuccessfulLogin>
+            <previousSuccessfulLogin>
+                <timestamp>2026-06-19T10:19:47.430Z</timestamp>
+                <from>x.x.x.x</from>
+            </previousSuccessfulLogin>
+            <lastFailedLogin>
+                <timestamp>2026-06-06T03:30:46.625Z</timestamp>
+                <from>x.x.x.x</from>
+            </lastFailedLogin>
+            <authenticationAttempt>
+                <sequenceIdentifier>admin-gui-default</sequenceIdentifier>
+                <moduleIdentifier>loginForm</moduleIdentifier>
+                <lastSuccessfulAuthentication>
+                    <timestamp>2026-06-20T00:43:56.374Z</timestamp>
+                    <from>x.x.x.x</from>
+                </lastSuccessfulAuthentication>
+                <lastFailedAuthentication>
+                    <timestamp>2026-06-06T03:30:46.597Z</timestamp>
+                    <from>x.x.x.x</from>
+                </lastFailedAuthentication>
+                <failedAttempts>0</failedAttempts>
+            </authenticationAttempt>
+            <sequenceIdentifier>admin-gui-default</sequenceIdentifier>
+        </authentication>
+    </behavior>
+    <fullName>midPoint Administrator</fullName>
+    <givenName>midPoint</givenName>
+    <familyName>Administrator</familyName>
+</user>
+
+</objects>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+	xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+	xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3">
+	<resource xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="b3a8d03b-934a-409d-ba4d-4f3603c105b8" version="31">
+    <_metadata id="1">
+        <storage>
+            <createTimestamp>2026-05-16T12:23:09.136Z</createTimestamp>
+            <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </creatorRef>
+            <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+            <modifyTimestamp>2026-05-22T13:55:02.385Z</modifyTimestamp>
+            <modifierRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </modifierRef>
+            <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+        </storage>
+        <process>
+            <requestTimestamp>2026-05-16T12:23:08.840Z</requestTimestamp>
+            <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </requestorRef>
+        </process>
+    </_metadata>
+    <name>SimplifyHR</name>
+    <description>HR source of truth</description>
+    <lifecycleState>active</lifecycleState>
+    <operationExecution id="47">
+        <recordType>simple</recordType>
+        <timestamp>2026-05-16T13:56:36.225Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000020743</token>
+            </executionResult>
+            <objectName>SimplifyHR</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="48">
+        <recordType>simple</recordType>
+        <timestamp>2026-05-22T13:48:57.845Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000001917227</token>
+            </executionResult>
+            <objectName>SimplifyHR</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="49">
+        <recordType>simple</recordType>
+        <timestamp>2026-05-22T13:53:31.740Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000005977</token>
+            </executionResult>
+            <objectName>SimplifyHR</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="50">
+        <recordType>simple</recordType>
+        <timestamp>2026-05-22T13:53:53.514Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000007128</token>
+            </executionResult>
+            <objectName>SimplifyHR</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="53">
+        <recordType>simple</recordType>
+        <timestamp>2026-05-22T13:55:02.518Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000009280</token>
+            </executionResult>
+            <objectName>SimplifyHR</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <iteration>0</iteration>
+    <iterationToken/>
+    <operationalState>
+        <lastAvailabilityStatus>up</lastAvailabilityStatus>
+        <message>Status set to UP because resource schema was successfully fetched</message>
+        <timestamp>2026-05-16T12:23:09.411Z</timestamp>
+        <nodeId>DefaultNode</nodeId>
+    </operationalState>
+    <operationalStateHistory id="5">
+        <lastAvailabilityStatus>up</lastAvailabilityStatus>
+        <message>Status set to UP because resource schema was successfully fetched</message>
+        <timestamp>2026-05-16T12:23:09.411Z</timestamp>
+        <nodeId>DefaultNode</nodeId>
+    </operationalStateHistory>
+    <connectorRef oid="9cef3d07-c2dd-486a-bce6-f3f87634cac2" relation="org:default" type="c:ConnectorType">
+        <!-- ConnId com.evolveum.polygon.connector.csv.CsvConnector v2.9 -->
+    </connectorRef>
+    <connectorConfiguration xmlns:icfc="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/connector-schema-3" xsi:type="c:ConnectorConfigurationType">
+        <icfc:configurationProperties xmlns:cfg="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/bundle/com.evolveum.polygon.connector-csv/com.evolveum.polygon.connector.csv.CsvConnector">
+            <cfg:fieldDelimiter>,</cfg:fieldDelimiter>
+            <cfg:filePath>/opt/midpoint/var/hr.csv</cfg:filePath>
+            <cfg:nameAttribute>empid</cfg:nameAttribute>
+            <cfg:uniqueAttribute>empid</cfg:uniqueAttribute>
+        </icfc:configurationProperties>
+    </connectorConfiguration>
+    <schema>
+        <cachingMetadata>
+            <retrievalTimestamp>2026-05-22T13:53:53.542Z</retrievalTimestamp>
+            <serialNumber>31dd612e87622b6b-fcca42d858b4c464</serialNumber>
+        </cachingMetadata>
+        <generationConstraints>
+            <generateObjectClass>ri:AccountObjectClass</generateObjectClass>
+        </generationConstraints>
+        <definition>
+            <xsd:schema xmlns:a="http://prism.evolveum.com/xml/ns/public/annotation-3" xmlns:ra="http://midpoint.evolveum.com/xml/ns/public/resource/annotation-3" xmlns:tns="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xml:space="preserve">
+                <xsd:import namespace="http://prism.evolveum.com/xml/ns/public/annotation-3"/>
+                <xsd:import namespace="http://midpoint.evolveum.com/xml/ns/public/resource/annotation-3"/>
+                <xsd:complexType name="AccountObjectClass">
+                    <xsd:annotation>
+                        <xsd:appinfo>
+                            <a:container>true</a:container>
+                            <ra:resourceObject>true</ra:resourceObject>
+                            <ra:nativeObjectClass>__ACCOUNT__</ra:nativeObjectClass>
+                            <ra:default>true</ra:default>
+                            <ra:auxiliary>false</ra:auxiliary>
+                            <ra:embedded>false</ra:embedded>
+                            <ra:namingAttribute>ri:empid</ra:namingAttribute>
+                            <ra:displayNameAttribute>ri:empid</ra:displayNameAttribute>
+                            <ra:identifier>ri:empid</ra:identifier>
+                        </xsd:appinfo>
+                    </xsd:annotation>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="0" name="status" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>120</a:displayOrder>
+                                    <ra:nativeAttributeName>status</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>status</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="lastname" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>130</a:displayOrder>
+                                    <ra:nativeAttributeName>lastname</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>lastname</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="manager" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>140</a:displayOrder>
+                                    <ra:nativeAttributeName>manager</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>manager</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="firstname" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>150</a:displayOrder>
+                                    <ra:nativeAttributeName>firstname</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>firstname</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="empid" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>100</a:displayOrder>
+                                    <ra:nativeAttributeName>empid</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>__NAME__</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="department" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>160</a:displayOrder>
+                                    <ra:nativeAttributeName>department</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>department</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="costcenter" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>170</a:displayOrder>
+                                    <ra:nativeAttributeName>costcenter</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>costcenter</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:schema>
+        </definition>
+    </schema>
+    <schemaHandling>
+        <objectType id="7">
+            <kind>account</kind>
+            <intent>default</intent>
+            <displayName>Account</displayName>
+            <delineation>
+                <objectClass>ri:AccountObjectClass</objectClass>
+            </delineation>
+            <focus>
+                <type>c:UserType</type>
+            </focus>
+            <attribute id="9">
+                <ref>ri:empid</ref>
+                <inbound id="22">
+                    <name>UniqueName</name>
+                    <strength>strong</strength>
+                    <target>
+                        <path>name</path>
+                    </target>
+                </inbound>
+                <inbound id="23">
+                    <name>Email</name>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <code>input + '@simplifytech.com'</code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>emailAddress</path>
+                    </target>
+                </inbound>
+            </attribute>
+            <attribute id="11">
+                <ref>ri:firstname</ref>
+                <inbound id="12">
+                    <name>FirstName</name>
+                    <mappingAlias>
+                        <_value>givenName</_value>
+                        <_metadata id="24">
+                            <provenance>
+                                <acquisition id="25">
+                                    <actorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                                        <!-- administrator -->
+                                    </actorRef>
+                                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                    <timestamp>2026-05-16T13:35:00.063Z</timestamp>
+                                </acquisition>
+                            </provenance>
+                        </_metadata>
+                    </mappingAlias>
+                    <strength>strong</strength>
+                    <target>
+                        <path>givenName</path>
+                    </target>
+                </inbound>
+            </attribute>
+            <attribute id="13">
+                <ref>ri:lastname</ref>
+                <inbound id="14">
+                    <name>LastName</name>
+                    <mappingAlias>
+                        <_value>familyName</_value>
+                        <_metadata id="26">
+                            <provenance>
+                                <acquisition id="27">
+                                    <actorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                                        <!-- administrator -->
+                                    </actorRef>
+                                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                    <timestamp>2026-05-16T13:35:00.064Z</timestamp>
+                                </acquisition>
+                            </provenance>
+                        </_metadata>
+                    </mappingAlias>
+                    <strength>strong</strength>
+                    <target>
+                        <path>familyName</path>
+                    </target>
+                </inbound>
+            </attribute>
+            <attribute id="15">
+                <ref>ri:department</ref>
+                <inbound id="16">
+                    <name>Department</name>
+                    <mappingAlias>
+                        <_value>organizationalUnit</_value>
+                        <_metadata id="28">
+                            <provenance>
+                                <acquisition id="29">
+                                    <actorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                                        <!-- administrator -->
+                                    </actorRef>
+                                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                    <timestamp>2026-05-16T13:35:00.064Z</timestamp>
+                                </acquisition>
+                            </provenance>
+                        </_metadata>
+                    </mappingAlias>
+                    <strength>strong</strength>
+                    <target>
+                        <path>organizationalUnit</path>
+                    </target>
+                </inbound>
+            </attribute>
+            <attribute id="17">
+                <ref>ri:status</ref>
+                <inbound id="18">
+                    <name>Status</name>
+                    <mappingAlias>
+                        <_value>status</_value>
+                        <_metadata id="30">
+                            <provenance>
+                                <acquisition id="31">
+                                    <actorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                                        <!-- administrator -->
+                                    </actorRef>
+                                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                    <timestamp>2026-05-16T13:35:00.065Z</timestamp>
+                                </acquisition>
+                            </provenance>
+                        </_metadata>
+                    </mappingAlias>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <code>import com.evolveum.midpoint.xml.ns._public.common.common_3.ActivationStatusType
+
+if (input == 'Active') {
+    return ActivationStatusType.ENABLED
+} else {
+    return ActivationStatusType.DISABLED
+}
+
+</code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>activation/administrativeStatus</path>
+                    </target>
+                </inbound>
+            </attribute>
+            <attribute id="19">
+                <ref>ri:costcenter</ref>
+                <inbound id="20">
+                    <name>CostCenter</name>
+                    <mappingAlias>
+                        <_value>costCenter</_value>
+                        <_metadata id="32">
+                            <provenance>
+                                <acquisition id="33">
+                                    <actorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                                        <!-- administrator -->
+                                    </actorRef>
+                                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                    <timestamp>2026-05-16T13:35:00.065Z</timestamp>
+                                </acquisition>
+                            </provenance>
+                        </_metadata>
+                    </mappingAlias>
+                    <strength>strong</strength>
+                    <target>
+                        <path>costCenter</path>
+                    </target>
+                </inbound>
+            </attribute>
+            <attribute id="51">
+                <ref>ri:manager</ref>
+                <inbound id="52">
+                    <name>Manager</name>
+                    <strength>strong</strength>
+                    <target>
+                        <path>extension/managerEmpId</path>
+                    </target>
+                </inbound>
+            </attribute>
+            <correlation>
+                <correlators>
+                    <items id="43">
+                        <name>account correlation</name>
+                        <enabled>true</enabled>
+                        <item id="44">
+                            <ref>name</ref>
+                        </item>
+                    </items>
+                </correlators>
+            </correlation>
+            <synchronization>
+                <reaction id="35">
+                    <situation>unmatched</situation>
+                    <actions>
+                        <addFocus id="36"/>
+                    </actions>
+                </reaction>
+                <reaction id="37">
+                    <situation>linked</situation>
+                    <actions>
+                        <synchronize id="38"/>
+                    </actions>
+                </reaction>
+                <reaction id="39">
+                    <situation>unlinked</situation>
+                    <actions>
+                        <link id="40"/>
+                    </actions>
+                </reaction>
+                <reaction id="41">
+                    <situation>deleted</situation>
+                </reaction>
+            </synchronization>
+        </objectType>
+    </schemaHandling>
+    <capabilities>
+        <cachingMetadata>
+            <retrievalTimestamp>2026-05-16T12:23:09.385Z</retrievalTimestamp>
+            <serialNumber>4211829624ea9c66-e50b649341248d68</serialNumber>
+        </cachingMetadata>
+        <native xmlns:cap="http://midpoint.evolveum.com/xml/ns/public/resource/capabilities-3">
+            <cap:schema/>
+            <cap:discoverConfiguration/>
+            <cap:liveSync/>
+            <cap:create/>
+            <cap:read>
+                <cap:returnDefaultAttributesOption>false</cap:returnDefaultAttributesOption>
+            </cap:read>
+            <cap:update>
+                <cap:addRemoveAttributeValues>true</cap:addRemoveAttributeValues>
+            </cap:update>
+            <cap:delete/>
+            <cap:testConnection/>
+            <cap:script>
+                <cap:host id="3">
+                    <cap:type>resource</cap:type>
+                </cap:host>
+                <cap:host id="4">
+                    <cap:type>connector</cap:type>
+                </cap:host>
+            </cap:script>
+        </native>
+    </capabilities>
+</resource>
+
+</objects>

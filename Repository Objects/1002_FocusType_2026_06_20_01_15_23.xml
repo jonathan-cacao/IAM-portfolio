@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+	xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+	xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3">
+	<user xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="23ae4ddb-56d5-45df-b66e-121eb2b972b3" version="11">
+    <_metadata id="2">
+        <storage>
+            <createTimestamp>2026-05-16T13:56:49.640Z</createTimestamp>
+            <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </creatorRef>
+            <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</createChannel>
+            <createTaskRef oid="a07fdd5a-75ad-44ff-b108-58518cd2172b" relation="org:default" type="c:TaskType">
+                <!-- Reconciliation task: SimplifyHR: Account -->
+            </createTaskRef>
+            <modifyTimestamp>2026-06-19T10:30:35.636Z</modifyTimestamp>
+            <modifierRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </modifierRef>
+            <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</modifyChannel>
+            <modifyTaskRef oid="a07fdd5a-75ad-44ff-b108-58518cd2172b" relation="org:default" type="c:TaskType">
+                <!-- Reconciliation task: SimplifyHR: Account -->
+            </modifyTaskRef>
+        </storage>
+        <process>
+            <requestTimestamp>2026-05-16T13:56:49.587Z</requestTimestamp>
+            <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </requestorRef>
+        </process>
+        <provisioning>
+            <lastProvisioningTimestamp>2026-05-22T13:57:07.166Z</lastProvisioningTimestamp>
+        </provisioning>
+    </_metadata>
+    <name>1002</name>
+    <extension xmlns:gen777="http://simplifyiam.com/xml/ns/extension">
+        <gen777:managerEmpId xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">1004</gen777:managerEmpId>
+    </extension>
+    <operationExecution id="9">
+        <recordType>simple</recordType>
+        <timestamp>2026-05-16T13:56:49.736Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>add</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000021393</token>
+            </executionResult>
+            <objectName>1002</objectName>
+        </operation>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000021394</token>
+            </executionResult>
+            <objectName>1002</objectName>
+            <resourceOid>b3a8d03b-934a-409d-ba4d-4f3603c105b8</resourceOid>
+            <resourceName>SimplifyHR</resourceName>
+        </operation>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000021395</token>
+            </executionResult>
+            <objectName>1002</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="a07fdd5a-75ad-44ff-b108-58518cd2172b" relation="org:default" type="c:TaskType">
+            <!-- Reconciliation task: SimplifyHR: Account -->
+        </taskRef>
+        <taskRunIdentifier>0458264d-819d-4733-8795-3697384f9d2e</taskRunIdentifier>
+        <activityPath>
+            <identifier>resourceObjects</identifier>
+        </activityPath>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
+    </operationExecution>
+    <operationExecution id="11">
+        <recordType>simple</recordType>
+        <timestamp>2026-05-22T13:57:07.292Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000017972</token>
+            </executionResult>
+            <objectName>1002</objectName>
+        </operation>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000017973</token>
+            </executionResult>
+            <objectName>1002</objectName>
+            <resourceOid>82916f4b-4647-4bfe-bc96-d7d398ed7701</resourceOid>
+            <resourceName>OpenLDAP</resourceName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="a07fdd5a-75ad-44ff-b108-58518cd2172b" relation="org:default" type="c:TaskType">
+            <!-- Reconciliation task: SimplifyHR: Account -->
+        </taskRef>
+        <taskRunIdentifier>2eb7b9b6-5727-4104-963b-c4d094af467b</taskRunIdentifier>
+        <activityPath>
+            <identifier>resourceObjects</identifier>
+        </activityPath>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
+    </operationExecution>
+    <operationExecution id="16">
+        <recordType>simple</recordType>
+        <timestamp>2026-06-19T10:30:35.711Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000741219</token>
+            </executionResult>
+            <objectName>1002</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="a07fdd5a-75ad-44ff-b108-58518cd2172b" relation="org:default" type="c:TaskType">
+            <!-- Reconciliation task: SimplifyHR: Account -->
+        </taskRef>
+        <taskRunIdentifier>95cf7aa5-9cc2-46db-b565-c1cbc538ca3c</taskRunIdentifier>
+        <activityPath>
+            <identifier>resourceObjects</identifier>
+        </activityPath>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
+    </operationExecution>
+    <operationExecution id="18">
+        <recordType>complex</recordType>
+        <timestamp>2026-06-19T11:56:04.430Z</timestamp>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="3e8b389e-7cc4-11ef-9295-4f3d13b4c390" relation="org:default" type="c:TaskType">
+            <!-- Recompute all users -->
+        </taskRef>
+        <activityPath/>
+    </operationExecution>
+    <assignment id="12">
+        <_metadata id="13">
+            <storage>
+                <createTimestamp>2026-06-19T10:30:35.636Z</createTimestamp>
+                <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</createChannel>
+                <createTaskRef oid="a07fdd5a-75ad-44ff-b108-58518cd2172b" relation="org:default" type="c:TaskType">
+                    <!-- Reconciliation task: SimplifyHR: Account -->
+                </createTaskRef>
+            </storage>
+            <process>
+                <requestTimestamp>2026-06-19T10:30:35.489Z</requestTimestamp>
+                <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </requestorRef>
+            </process>
+            <provenance>
+                <mappingSpecification>
+                    <definitionObjectRef oid="f923ce70-688f-11e3-ab09-001e8c717e5b" relation="org:default" type="c:ObjectTemplateType">
+                        <!-- User Template -->
+                    </definitionObjectRef>
+                    <mappingName>remove-role-on-termination</mappingName>
+                </mappingSpecification>
+            </provenance>
+        </_metadata>
+        <targetRef oid="cb0104c2-cc6c-4711-9849-038288a0102c" relation="org:default" type="c:RoleType">
+            <!-- Employee -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <iteration>0</iteration>
+    <iterationToken/>
+    <roleMembershipRef oid="cb0104c2-cc6c-4711-9849-038288a0102c" relation="org:default" type="c:RoleType">
+        <!-- Employee -->
+        <_metadata id="14">
+            <storage>
+                <createTimestamp>2026-06-19T10:30:35.561Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="23ae4ddb-56d5-45df-b66e-121eb2b972b3" relation="org:default" type="c:UserType">
+                        <!-- 1002 -->
+                    </sourceRef>
+                    <segment id="15">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>12</assignmentId>
+                        <targetRef oid="cb0104c2-cc6c-4711-9849-038288a0102c" relation="org:default" type="c:RoleType">
+                            <!-- Employee -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <linkRef oid="7f5ff525-0916-4669-9619-5e653f484746" relation="org:default" type="c:ShadowType">
+        <!-- 1002 -->
+    </linkRef>
+    <linkRef oid="d2857296-137e-4283-aeef-92e903eedd70" relation="org:default" type="c:ShadowType">
+        <!-- uid=1002,ou=people,dc=simplifyiam,dc=com -->
+    </linkRef>
+    <activation>
+        <administrativeStatus>enabled</administrativeStatus>
+        <effectiveStatus>enabled</effectiveStatus>
+        <enableTimestamp>2026-05-16T13:56:49.587Z</enableTimestamp>
+    </activation>
+    <costCenter>FIN-001</costCenter>
+    <emailAddress>1002@simplifytech.com</emailAddress>
+    <fullName>James Anderson</fullName>
+    <givenName>James</givenName>
+    <familyName>Anderson</familyName>
+    <organizationalUnit>
+        <_value>Finance</_value>
+        <_metadata id="3">
+            <provenance>
+                <mappingSpecification>
+                    <definitionObjectRef oid="b3a8d03b-934a-409d-ba4d-4f3603c105b8" relation="org:default" type="c:ResourceType">
+                        <!-- SimplifyHR -->
+                    </definitionObjectRef>
+                    <objectType>
+                        <kind>account</kind>
+                        <intent>default</intent>
+                    </objectType>
+                    <mappingName>Department</mappingName>
+                </mappingSpecification>
+            </provenance>
+        </_metadata>
+    </organizationalUnit>
+</user>
+
+</objects>
